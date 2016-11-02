@@ -24,23 +24,23 @@ Partial Class Menu
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.grpEntree = New System.Windows.Forms.GroupBox()
-        Me.grpSide = New System.Windows.Forms.GroupBox()
-        Me.grpDrink = New System.Windows.Forms.GroupBox()
-        Me.radChicken = New System.Windows.Forms.RadioButton()
-        Me.radRigatoni = New System.Windows.Forms.RadioButton()
-        Me.radLobster = New System.Windows.Forms.RadioButton()
-        Me.grpDessert = New System.Windows.Forms.GroupBox()
         Me.radTuna = New System.Windows.Forms.RadioButton()
-        Me.radFries = New System.Windows.Forms.RadioButton()
-        Me.radSalad = New System.Windows.Forms.RadioButton()
-        Me.radTortilla = New System.Windows.Forms.RadioButton()
+        Me.radLobster = New System.Windows.Forms.RadioButton()
+        Me.radRigatoni = New System.Windows.Forms.RadioButton()
+        Me.radChicken = New System.Windows.Forms.RadioButton()
+        Me.grpSide = New System.Windows.Forms.GroupBox()
         Me.radRice = New System.Windows.Forms.RadioButton()
-        Me.radWater = New System.Windows.Forms.RadioButton()
-        Me.radSoda = New System.Windows.Forms.RadioButton()
+        Me.radTortilla = New System.Windows.Forms.RadioButton()
+        Me.radSalad = New System.Windows.Forms.RadioButton()
+        Me.radFries = New System.Windows.Forms.RadioButton()
+        Me.grpDrink = New System.Windows.Forms.GroupBox()
         Me.radTea = New System.Windows.Forms.RadioButton()
-        Me.radShake = New System.Windows.Forms.RadioButton()
-        Me.radKueh = New System.Windows.Forms.RadioButton()
+        Me.radSoda = New System.Windows.Forms.RadioButton()
+        Me.radWater = New System.Windows.Forms.RadioButton()
+        Me.grpDessert = New System.Windows.Forms.GroupBox()
         Me.radPie = New System.Windows.Forms.RadioButton()
+        Me.radKueh = New System.Windows.Forms.RadioButton()
+        Me.radShake = New System.Windows.Forms.RadioButton()
         Me.grpEntree.SuspendLayout()
         Me.grpSide.SuspendLayout()
         Me.grpDrink.SuspendLayout()
@@ -71,54 +71,17 @@ Partial Class Menu
         Me.grpEntree.TabStop = False
         Me.grpEntree.Text = "Entrees"
         '
-        'grpSide
+        'radTuna
         '
-        Me.grpSide.Controls.Add(Me.radRice)
-        Me.grpSide.Controls.Add(Me.radTortilla)
-        Me.grpSide.Controls.Add(Me.radSalad)
-        Me.grpSide.Controls.Add(Me.radFries)
-        Me.grpSide.Location = New System.Drawing.Point(29, 261)
-        Me.grpSide.Name = "grpSide"
-        Me.grpSide.Size = New System.Drawing.Size(247, 165)
-        Me.grpSide.TabIndex = 2
-        Me.grpSide.TabStop = False
-        Me.grpSide.Text = "Sides"
-        '
-        'grpDrink
-        '
-        Me.grpDrink.Controls.Add(Me.radTea)
-        Me.grpDrink.Controls.Add(Me.radSoda)
-        Me.grpDrink.Controls.Add(Me.radWater)
-        Me.grpDrink.Location = New System.Drawing.Point(395, 105)
-        Me.grpDrink.Name = "grpDrink"
-        Me.grpDrink.Size = New System.Drawing.Size(247, 139)
-        Me.grpDrink.TabIndex = 3
-        Me.grpDrink.TabStop = False
-        Me.grpDrink.Text = "Drinks"
-        '
-        'radChicken
-        '
-        Me.radChicken.AutoSize = True
-        Me.radChicken.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radChicken.Location = New System.Drawing.Point(7, 48)
-        Me.radChicken.Name = "radChicken"
-        Me.radChicken.Size = New System.Drawing.Size(149, 22)
-        Me.radChicken.TabIndex = 0
-        Me.radChicken.TabStop = True
-        Me.radChicken.Text = "Sicilian Chicken "
-        Me.radChicken.UseVisualStyleBackColor = True
-        '
-        'radRigatoni
-        '
-        Me.radRigatoni.AutoSize = True
-        Me.radRigatoni.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radRigatoni.Location = New System.Drawing.Point(7, 77)
-        Me.radRigatoni.Name = "radRigatoni"
-        Me.radRigatoni.Size = New System.Drawing.Size(170, 22)
-        Me.radRigatoni.TabIndex = 1
-        Me.radRigatoni.TabStop = True
-        Me.radRigatoni.Text = "Parmesan Rigatoni"
-        Me.radRigatoni.UseVisualStyleBackColor = True
+        Me.radTuna.AutoSize = True
+        Me.radTuna.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radTuna.Location = New System.Drawing.Point(6, 133)
+        Me.radTuna.Name = "radTuna"
+        Me.radTuna.Size = New System.Drawing.Size(227, 22)
+        Me.radTuna.TabIndex = 3
+        Me.radTuna.TabStop = True
+        Me.radTuna.Text = "Portuguese Tuna Casserole"
+        Me.radTuna.UseVisualStyleBackColor = True
         '
         'radLobster
         '
@@ -132,65 +95,42 @@ Partial Class Menu
         Me.radLobster.Text = "Bohemian Lobster"
         Me.radLobster.UseVisualStyleBackColor = True
         '
-        'grpDessert
+        'radRigatoni
         '
-        Me.grpDessert.Controls.Add(Me.radPie)
-        Me.grpDessert.Controls.Add(Me.radKueh)
-        Me.grpDessert.Controls.Add(Me.radShake)
-        Me.grpDessert.Location = New System.Drawing.Point(395, 292)
-        Me.grpDessert.Name = "grpDessert"
-        Me.grpDessert.Size = New System.Drawing.Size(247, 134)
-        Me.grpDessert.TabIndex = 4
-        Me.grpDessert.TabStop = False
-        Me.grpDessert.Text = "Desserts"
+        Me.radRigatoni.AutoSize = True
+        Me.radRigatoni.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radRigatoni.Location = New System.Drawing.Point(7, 77)
+        Me.radRigatoni.Name = "radRigatoni"
+        Me.radRigatoni.Size = New System.Drawing.Size(170, 22)
+        Me.radRigatoni.TabIndex = 1
+        Me.radRigatoni.TabStop = True
+        Me.radRigatoni.Text = "Parmesan Rigatoni"
+        Me.radRigatoni.UseVisualStyleBackColor = True
         '
-        'radTuna
+        'radChicken
         '
-        Me.radTuna.AutoSize = True
-        Me.radTuna.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radTuna.Location = New System.Drawing.Point(6, 133)
-        Me.radTuna.Name = "radTuna"
-        Me.radTuna.Size = New System.Drawing.Size(227, 22)
-        Me.radTuna.TabIndex = 3
-        Me.radTuna.TabStop = True
-        Me.radTuna.Text = "Portuguese Tuna Casserole"
-        Me.radTuna.UseVisualStyleBackColor = True
+        Me.radChicken.AutoSize = True
+        Me.radChicken.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radChicken.Location = New System.Drawing.Point(7, 48)
+        Me.radChicken.Name = "radChicken"
+        Me.radChicken.Size = New System.Drawing.Size(149, 22)
+        Me.radChicken.TabIndex = 0
+        Me.radChicken.TabStop = True
+        Me.radChicken.Text = "Sicilian Chicken "
+        Me.radChicken.UseVisualStyleBackColor = True
         '
-        'radFries
+        'grpSide
         '
-        Me.radFries.AutoSize = True
-        Me.radFries.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radFries.Location = New System.Drawing.Point(7, 47)
-        Me.radFries.Name = "radFries"
-        Me.radFries.Size = New System.Drawing.Size(118, 22)
-        Me.radFries.TabIndex = 4
-        Me.radFries.TabStop = True
-        Me.radFries.Text = "French Fries"
-        Me.radFries.UseVisualStyleBackColor = True
-        '
-        'radSalad
-        '
-        Me.radSalad.AutoSize = True
-        Me.radSalad.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radSalad.Location = New System.Drawing.Point(6, 75)
-        Me.radSalad.Name = "radSalad"
-        Me.radSalad.Size = New System.Drawing.Size(158, 22)
-        Me.radSalad.TabIndex = 5
-        Me.radSalad.TabStop = True
-        Me.radSalad.Text = "Caesar Side Salad"
-        Me.radSalad.UseVisualStyleBackColor = True
-        '
-        'radTortilla
-        '
-        Me.radTortilla.AutoSize = True
-        Me.radTortilla.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radTortilla.Location = New System.Drawing.Point(7, 103)
-        Me.radTortilla.Name = "radTortilla"
-        Me.radTortilla.Size = New System.Drawing.Size(154, 22)
-        Me.radTortilla.TabIndex = 6
-        Me.radTortilla.TabStop = True
-        Me.radTortilla.Text = "Tortilla Espanola"
-        Me.radTortilla.UseVisualStyleBackColor = True
+        Me.grpSide.Controls.Add(Me.radRice)
+        Me.grpSide.Controls.Add(Me.radTortilla)
+        Me.grpSide.Controls.Add(Me.radSalad)
+        Me.grpSide.Controls.Add(Me.radFries)
+        Me.grpSide.Location = New System.Drawing.Point(29, 261)
+        Me.grpSide.Name = "grpSide"
+        Me.grpSide.Size = New System.Drawing.Size(247, 165)
+        Me.grpSide.TabIndex = 2
+        Me.grpSide.TabStop = False
+        Me.grpSide.Text = "Sides"
         '
         'radRice
         '
@@ -204,29 +144,53 @@ Partial Class Menu
         Me.radRice.Text = "Black Rice"
         Me.radRice.UseVisualStyleBackColor = True
         '
-        'radWater
+        'radTortilla
         '
-        Me.radWater.AutoSize = True
-        Me.radWater.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radWater.Location = New System.Drawing.Point(6, 47)
-        Me.radWater.Name = "radWater"
-        Me.radWater.Size = New System.Drawing.Size(73, 22)
-        Me.radWater.TabIndex = 8
-        Me.radWater.TabStop = True
-        Me.radWater.Text = "Water"
-        Me.radWater.UseVisualStyleBackColor = True
+        Me.radTortilla.AutoSize = True
+        Me.radTortilla.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radTortilla.Location = New System.Drawing.Point(7, 103)
+        Me.radTortilla.Name = "radTortilla"
+        Me.radTortilla.Size = New System.Drawing.Size(154, 22)
+        Me.radTortilla.TabIndex = 6
+        Me.radTortilla.TabStop = True
+        Me.radTortilla.Text = "Tortilla Espanola"
+        Me.radTortilla.UseVisualStyleBackColor = True
         '
-        'radSoda
+        'radSalad
         '
-        Me.radSoda.AutoSize = True
-        Me.radSoda.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radSoda.Location = New System.Drawing.Point(6, 74)
-        Me.radSoda.Name = "radSoda"
-        Me.radSoda.Size = New System.Drawing.Size(63, 22)
-        Me.radSoda.TabIndex = 9
-        Me.radSoda.TabStop = True
-        Me.radSoda.Text = "Soda"
-        Me.radSoda.UseVisualStyleBackColor = True
+        Me.radSalad.AutoSize = True
+        Me.radSalad.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radSalad.Location = New System.Drawing.Point(6, 75)
+        Me.radSalad.Name = "radSalad"
+        Me.radSalad.Size = New System.Drawing.Size(158, 22)
+        Me.radSalad.TabIndex = 5
+        Me.radSalad.TabStop = True
+        Me.radSalad.Text = "Caesar Side Salad"
+        Me.radSalad.UseVisualStyleBackColor = True
+        '
+        'radFries
+        '
+        Me.radFries.AutoSize = True
+        Me.radFries.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radFries.Location = New System.Drawing.Point(7, 47)
+        Me.radFries.Name = "radFries"
+        Me.radFries.Size = New System.Drawing.Size(118, 22)
+        Me.radFries.TabIndex = 4
+        Me.radFries.TabStop = True
+        Me.radFries.Text = "French Fries"
+        Me.radFries.UseVisualStyleBackColor = True
+        '
+        'grpDrink
+        '
+        Me.grpDrink.Controls.Add(Me.radTea)
+        Me.grpDrink.Controls.Add(Me.radSoda)
+        Me.grpDrink.Controls.Add(Me.radWater)
+        Me.grpDrink.Location = New System.Drawing.Point(395, 105)
+        Me.grpDrink.Name = "grpDrink"
+        Me.grpDrink.Size = New System.Drawing.Size(247, 139)
+        Me.grpDrink.TabIndex = 3
+        Me.grpDrink.TabStop = False
+        Me.grpDrink.Text = "Drinks"
         '
         'radTea
         '
@@ -240,29 +204,41 @@ Partial Class Menu
         Me.radTea.Text = "Sweet Tea"
         Me.radTea.UseVisualStyleBackColor = True
         '
-        'radShake
+        'radSoda
         '
-        Me.radShake.AutoSize = True
-        Me.radShake.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radShake.Location = New System.Drawing.Point(6, 44)
-        Me.radShake.Name = "radShake"
-        Me.radShake.Size = New System.Drawing.Size(198, 22)
-        Me.radShake.TabIndex = 11
-        Me.radShake.TabStop = True
-        Me.radShake.Text = "Argentinian Milkshake"
-        Me.radShake.UseVisualStyleBackColor = True
+        Me.radSoda.AutoSize = True
+        Me.radSoda.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radSoda.Location = New System.Drawing.Point(6, 74)
+        Me.radSoda.Name = "radSoda"
+        Me.radSoda.Size = New System.Drawing.Size(63, 22)
+        Me.radSoda.TabIndex = 9
+        Me.radSoda.TabStop = True
+        Me.radSoda.Text = "Soda"
+        Me.radSoda.UseVisualStyleBackColor = True
         '
-        'radKueh
+        'radWater
         '
-        Me.radKueh.AutoSize = True
-        Me.radKueh.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radKueh.Location = New System.Drawing.Point(6, 72)
-        Me.radKueh.Name = "radKueh"
-        Me.radKueh.Size = New System.Drawing.Size(116, 22)
-        Me.radKueh.TabIndex = 12
-        Me.radKueh.TabStop = True
-        Me.radKueh.Text = "Kueh Dadar"
-        Me.radKueh.UseVisualStyleBackColor = True
+        Me.radWater.AutoSize = True
+        Me.radWater.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radWater.Location = New System.Drawing.Point(6, 47)
+        Me.radWater.Name = "radWater"
+        Me.radWater.Size = New System.Drawing.Size(73, 22)
+        Me.radWater.TabIndex = 8
+        Me.radWater.TabStop = True
+        Me.radWater.Text = "Water"
+        Me.radWater.UseVisualStyleBackColor = True
+        '
+        'grpDessert
+        '
+        Me.grpDessert.Controls.Add(Me.radPie)
+        Me.grpDessert.Controls.Add(Me.radKueh)
+        Me.grpDessert.Controls.Add(Me.radShake)
+        Me.grpDessert.Location = New System.Drawing.Point(395, 292)
+        Me.grpDessert.Name = "grpDessert"
+        Me.grpDessert.Size = New System.Drawing.Size(247, 134)
+        Me.grpDessert.TabIndex = 4
+        Me.grpDessert.TabStop = False
+        Me.grpDessert.Text = "Desserts"
         '
         'radPie
         '
@@ -276,18 +252,42 @@ Partial Class Menu
         Me.radPie.Text = "Banoffee Pie"
         Me.radPie.UseVisualStyleBackColor = True
         '
+        'radKueh
+        '
+        Me.radKueh.AutoSize = True
+        Me.radKueh.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radKueh.Location = New System.Drawing.Point(6, 72)
+        Me.radKueh.Name = "radKueh"
+        Me.radKueh.Size = New System.Drawing.Size(116, 22)
+        Me.radKueh.TabIndex = 12
+        Me.radKueh.TabStop = True
+        Me.radKueh.Text = "Kueh Dadar"
+        Me.radKueh.UseVisualStyleBackColor = True
+        '
+        'radShake
+        '
+        Me.radShake.AutoSize = True
+        Me.radShake.Font = New System.Drawing.Font("Gill Sans Ultra Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radShake.Location = New System.Drawing.Point(6, 44)
+        Me.radShake.Name = "radShake"
+        Me.radShake.Size = New System.Drawing.Size(198, 22)
+        Me.radShake.TabIndex = 11
+        Me.radShake.TabStop = True
+        Me.radShake.Text = "Argentinian Milkshake"
+        Me.radShake.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(18.0!, 39.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(689, 475)
+        Me.ClientSize = New System.Drawing.Size(692, 475)
         Me.Controls.Add(Me.grpDessert)
         Me.Controls.Add(Me.grpDrink)
         Me.Controls.Add(Me.grpSide)
         Me.Controls.Add(Me.grpEntree)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Jokerman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(9, 9, 9, 9)
+        Me.Margin = New System.Windows.Forms.Padding(9)
         Me.Name = "Menu"
         Me.Text = "Menu"
         Me.grpEntree.ResumeLayout(False)
