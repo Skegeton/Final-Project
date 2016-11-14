@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Menu
+Partial Class MenuForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -276,7 +276,7 @@ Partial Class Menu
         Me.radShake.Text = "Argentinian Milkshake"
         Me.radShake.UseVisualStyleBackColor = True
         '
-        'Menu
+        'MenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(18.0!, 39.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -288,7 +288,7 @@ Partial Class Menu
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Jokerman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(9)
-        Me.Name = "Menu"
+        Me.Name = "MenuForm"
         Me.Text = "Menu"
         Me.grpEntree.ResumeLayout(False)
         Me.grpEntree.PerformLayout()
