@@ -15,7 +15,7 @@
     Dim kueh As Decimal = 3.0
     Dim pie As Decimal = 2.5
 
+    Private Sub btnTotal_Click(sender As Object, e As EventArgs) Handles btnTotal.Click
 
-
-
+    End Sub
 End Class

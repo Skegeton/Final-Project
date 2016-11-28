@@ -41,6 +41,7 @@ Partial Class MenuForm
         Me.radPie = New System.Windows.Forms.RadioButton()
         Me.radKueh = New System.Windows.Forms.RadioButton()
         Me.radShake = New System.Windows.Forms.RadioButton()
+        Me.btnTotal = New System.Windows.Forms.Button()
         Me.grpEntree.SuspendLayout()
         Me.grpSide.SuspendLayout()
         Me.grpDrink.SuspendLayout()
@@ -276,11 +277,22 @@ Partial Class MenuForm
         Me.radShake.Text = "Argentinian Milkshake"
         Me.radShake.UseVisualStyleBackColor = True
         '
+        'btnTotal
+        '
+        Me.btnTotal.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTotal.Location = New System.Drawing.Point(295, 402)
+        Me.btnTotal.Name = "btnTotal"
+        Me.btnTotal.Size = New System.Drawing.Size(82, 24)
+        Me.btnTotal.TabIndex = 5
+        Me.btnTotal.Text = "Total"
+        Me.btnTotal.UseVisualStyleBackColor = True
+        '
         'MenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(18.0!, 39.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(692, 475)
+        Me.Controls.Add(Me.btnTotal)
         Me.Controls.Add(Me.grpDessert)
         Me.Controls.Add(Me.grpDrink)
         Me.Controls.Add(Me.grpSide)
@@ -322,4 +334,5 @@ Partial Class MenuForm
     Friend WithEvents radPie As RadioButton
     Friend WithEvents radKueh As RadioButton
     Friend WithEvents radShake As RadioButton
+    Friend WithEvents btnTotal As Button
 End Class
