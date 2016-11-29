@@ -23,43 +23,55 @@
             bill += rigatoni
         End If
         If radLobster.Checked Then
-                bill += lobster
+            bill += lobster
+        End If
+        If radTuna.Checked Then
+            bill += tuna
+        End If
+        If radFries.Checked Then
+            bill += fries
+        End If
+        If radSalad.Checked Then
+            bill += salad
+        End If
+        If radTortilla.Checked Then
+            bill += tortilla
+        End If
+        If radRice.Checked Then
+            bill += rice
+        End If
+        If radWater.Checked Then
+            bill += water
+        End If
+        If radSoda.Checked Then
+            bill += soda
+        End If
+        If radTea.Checked Then
+            bill += tea
+        End If
+        If radShake.Checked Then
+            bill += shake
+        End If
+        If radKueh.Checked Then
+            bill += kueh
+        End If
+        If radPie.Checked Then
+            bill += pie
+        End If
+        Dim input As String = Nothing
+        input = InputBox("Your total is: $" & bill & ". Would you like to be in our database for future visits?", "Total Bill", , , )
+        If input = "Yes" Then
+            'Add to database
+        ElseIf input = "No" Then
+            MessageBox.Show("Thank you for coming to Pateli's!")
+        Else
+            InputBox("Sorry, I didn't catch that. Did you want to be in our database? It makes visits much easier!")
+            If input = "Yes" Then
+                'Add to database
+            Else
+                MessageBox.Show("Thank you for coming to Pateli's!")
             End If
-            If radTuna.Checked Then
-                    bill += tuna
-                End If
-                If radFries.Checked Then
-                        bill += fries
-                    End If
-                    If radSalad.Checked Then
-                            bill += salad
-                        End If
-                        If radTortilla.Checked Then
-                                bill += tortilla
-                            End If
-                            If radRice.Checked Then
-                                    bill += rice
-                                End If
-                                If radWater.Checked Then
-                                        bill += water
-                                    End If
-                                    If radSoda.Checked Then
-                                            bill += soda
-                                        End If
-                                        If radTea.Checked Then
-                                                bill += tea
-                                            End If
-                                            If radShake.Checked Then
-                                                    bill += shake
-                                                End If
-                                                If radKueh.Checked Then
-                                                        bill += kueh
-                                                    End If
-                                                    If radPie.Checked Then
-                                                            bill += pie
-                                                        End If
-        MessageBox.Show("Your total is: $" & bill)
-        MessageBox.Show("Thank you for coming to Pateli's!")
+        End If
         Close()
 
     End Sub

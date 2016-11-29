@@ -12,6 +12,7 @@
     Private Sub MenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MenuToolStripMenuItem.Click
         Dim input As String = Nothing
         input = InputBox("How many are in you party?", "Party Quantity", , , )
+        input = InputBox("What name should the bill be under?", "Billing Information", , , )
         MessageBox.Show("What can I get you started with?")
         MenuForm.ShowDialog()
     End Sub
