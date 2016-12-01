@@ -16,4 +16,8 @@
         MessageBox.Show("What can I get you started with?")
         MenuForm.ShowDialog()
     End Sub
+
+    Private Sub CustomersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CustomersToolStripMenuItem.Click
+        CustomersForm.ShowDialog()
+    End Sub
 End Class
