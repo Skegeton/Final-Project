@@ -16,46 +16,43 @@
     Public Const pie As Decimal = 2.5
 
     Private Sub btnTotal_Click(sender As Object, e As EventArgs) Handles btnTotal.Click
-        If radChicken.Checked Then
+        If chkChicken.Checked Then
             bill += chicken
         End If
-        If radRigatoni.Checked Then
+        If chkRigatoni.Checked Then
             bill += rigatoni
         End If
-        If radLobster.Checked Then
+        If chkLobster.Checked Then
             bill += lobster
         End If
-        If radTuna.Checked Then
+        If chkTuna.Checked Then
             bill += tuna
         End If
-        If radFries.Checked Then
+        If chkFries.Checked Then
             bill += fries
         End If
-        If radSalad.Checked Then
+        If chkSalad.Checked Then
             bill += salad
         End If
-        If radTortilla.Checked Then
+        If chkTortilla.Checked Then
             bill += tortilla
         End If
-        If radRice.Checked Then
-            bill += rice
-        End If
-        If radWater.Checked Then
+        If chkWater.Checked Then
             bill += water
         End If
-        If radSoda.Checked Then
+        If chkSoda.Checked Then
             bill += soda
         End If
-        If radTea.Checked Then
+        If chkTea.Checked Then
             bill += tea
         End If
-        If radShake.Checked Then
+        If chkShake.Checked Then
             bill += shake
         End If
-        If radKueh.Checked Then
+        If chkKueh.Checked Then
             bill += kueh
         End If
-        If radPie.Checked Then
+        If chkPie.Checked Then
             bill += pie
         End If
         Dim input As String = Nothing
